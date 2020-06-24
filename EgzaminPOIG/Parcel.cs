@@ -22,6 +22,7 @@ namespace EgzaminPOIG
             this.length = length;
             this.height = height;
             postingDate = DateTime.Now;
+            Poczta.SetNumber(this);
         }
 
         public abstract decimal ObliczKoszt();

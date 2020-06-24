@@ -15,6 +15,7 @@ namespace EgzaminPOIG
                 if (weight <= tuple.Weight)
                 {
                     weightPrice = tuple.Cost;
+                    break;
                 }
             }
 
@@ -23,6 +24,7 @@ namespace EgzaminPOIG
                 if (width <= tuple.X && length <= tuple.Y && height <= tuple.Z)
                 {
                     sizePrice = tuple.Cost;
+                    break;
                 }
             }
 
@@ -47,7 +49,7 @@ namespace EgzaminPOIG
 
         public override string GenerujListPrzewozowy()
         {
-            return $"Nadawca: \n{sender} \n\nOdbiorca: \n{recipient} \n\nDataNadania: \n{postingDate.Date}";
+            return $"Nadawca: \n{sender} \n\nOdbiorca: \n{recipient} \n\nDataNadania: \n{postingDate.Date.ToString("MM/dd/yyyy")}";
         }
     }
 }

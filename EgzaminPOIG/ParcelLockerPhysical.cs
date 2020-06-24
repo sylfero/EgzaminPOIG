@@ -17,7 +17,7 @@
 
         public override string ToString()
         {
-            return $"{Street} {Number} \n {City} {PostalCode}";
+            return $"{Street} {Number} \n{City} {PostalCode}";
         }
     }
 }
