@@ -43,9 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Courier.cs" />
+    <Compile Include="CourierExpress.cs" />
+    <Compile Include="IParcelLockerPhysical.cs" />
     <Compile Include="IPerson.cs" />
+    <Compile Include="ParcelLockerPhysical.cs" />
     <Compile Include="Parcel.cs" />
+    <Compile Include="ParcelLocker.cs" />
     <Compile Include="Person.cs" />
+    <Compile Include="Poczta.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

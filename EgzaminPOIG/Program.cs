@@ -10,7 +10,7 @@ namespace EgzaminPOIG
     {
         static void Main(string[] args)
         {
-            Person p = new Person("Jan", "Kowalski", "Bytom", "41-936", "Gombrowicza", 12, 5, 555666777, "f@gmail.com");
+            Person p = new Person("Jan", "Kowalski", "Bytom", "41-936", "Gombrowicza", "12c", 5, 555666777, "f@gmail.com");
             Console.WriteLine(p);
             Console.ReadKey();
         }
